@@ -12,6 +12,9 @@
     "vite": "^8.0.12"
   },
   "dependencies": {
-    "basiclightbox": "^5.0.4"
+    "basiclightbox": "^5.0.4",
+    "flatpickr": "^4.6.13",
+    "izitoast": "^1.4.0",
+    "simplelightbox": "^2.14.3"
   }
 }

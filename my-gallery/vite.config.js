@@ -6,11 +6,8 @@ export default defineConfig({
       simplelightbox: "simplelightbox/dist/simple-lightbox.esm.js",
     },
   },
-});
-import { defineConfig } from "vite";
-
-export default defineConfig({
   define: {
     global: "window",
   },
 });
+import { defineConfig } from "vite";

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Завдання №5 — Пошук зображень</title>
+
+    <script>
+      window.global = window;
+    </script>
+
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <h2>Завдання №5 — Пошук зображень</h2>
+
+    <form id="search-form" class="search-form">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Введіть ключове слово..."
+      />
+      <button type="submit">Пошук</button>
+    </form>
+
+    <!-- Індикатор завантаження -->
+    <div id="loader" class="loader hidden"></div>
+
+    <!-- Галерея -->
+    <ul id="gallery" class="gallery"></ul>
+
+    <script type="module" src="./src/3-search.js"></script>
+  </body>
+</html>
