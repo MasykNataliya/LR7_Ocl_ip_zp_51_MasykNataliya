@@ -9,5 +9,6 @@ export default defineConfig({
   define: {
     global: "window",
   },
+  base: "/LR7_Ocl_ip_zp_51_MasykNataliya/",
 });
 import { defineConfig } from "vite";
